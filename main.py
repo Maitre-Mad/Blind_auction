@@ -16,4 +16,5 @@ while bidder:
     max_bid=max(bid_log,key=bid_log.get)
     print(f"The winner is {max_bid} with {bid_log[max_bid]}")
     bidder=False
-  
+
+##If there is two bidders with the same bid; the program will select the first bidder  
